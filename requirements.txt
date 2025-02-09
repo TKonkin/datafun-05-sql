@@ -115,7 +115,7 @@ openpyxl
 # SQL DATABASES
 # ======================================================
 
-sqlite3
+# sqlite3
 
 # ======================================================
 # DATA PROCESSING & ANALYSIS
@@ -130,4 +130,4 @@ matplotlib  # the foundation
 seaborn     # built on top of matplotlib
 
 # general-purpose interactivity library
-ipywidgets  
+ipywidgets
