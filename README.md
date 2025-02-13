@@ -15,3 +15,14 @@ Install dependencies.
 Save & git-add-commit-push.
 
 ## 3 - Create csv files
+authors.csv
+books.csv
+
+## 4 - Design Schema and Database Initialization
+authors (author_id, first_name, last_name, year_born)
+books (book_id, title, year_published, author_id)
+
+## 5 - Feature Engineering
+Update records.
+Delete records.
+
