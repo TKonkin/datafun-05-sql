@@ -17,7 +17,7 @@ def perform_aggs():
             cursor = conn.cursor()
             sql_statements = [
                "SELECT AVG(year_published) FROM books", 
-               "SELECT SUM(year_born) FROM authors"
+               "SELECT SUM(year_published) FROM books"
             ]
             for statement in sql_statements:
                 cursor.execute(statement)
