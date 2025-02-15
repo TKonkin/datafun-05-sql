@@ -19,14 +19,11 @@ def perform_aggs():
                "SELECT AVG(year_published) FROM books", 
                "SELECT SUM(year_born) FROM authors"
             ]
-
             for statement in sql_statements:
                 cursor.execute(statement)
-            
-            
-            results = cursor.fetchall()
-            for row in results:
-                print(row)   
+                results = cursor.fetchall()
+                for row in results:
+                    print(row)   
             
     except sqlite3.Error as e:
         print("Error aggregating records:", e)
